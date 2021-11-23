@@ -22,7 +22,7 @@ class Test(unittest.TestCase):
 
     def test_division(self):
         data = [10, 2]
-        expected = 5
+        expected = 4
         self.assertAlmostEqual(division(data[0], data[1]), expected)
 
 if __name__ == '__main__':
